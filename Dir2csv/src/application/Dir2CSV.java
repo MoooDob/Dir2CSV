@@ -47,14 +47,6 @@ public class Dir2CSV extends Application {
 	// Files with this extension will be shown, null or empty array => all files 
 	final String[] fileExtensionFilter = {}; // {"java", "cpp", "h"} // null /*=> all*/
 
-	// files with this extension will shown using their dimension (max line length x lines),
-	// other files will be shown using an equal sized rounded rectangle
-	// null or empty array => show all files with dimensions
-	final String[] dimensionDisplayExtensionFilter = {}; // {"java"}
-
-	// files with this file name will be explicitly shown using their dimension 
-	// (max line length x lines)
-	final String[] dimensionDisplayFilenameFilter = {}; // {"readme.md"}
 
 	// **********************
 
